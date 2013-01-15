@@ -1,0 +1,114 @@
+#content .container{
+		width:1008px;
+		background-position:50% !important;
+		padding:0 1px;
+	}
+	#logo {
+		position:absolute;
+		left:50%;
+		margin-left:-122px;
+	}
+	.menusearch {
+		float:right;
+		margin-top:35px;
+		width:210px;
+	}
+	/*------------------------------ MENU ------------------------------*/
+	#secondarymenu-container {
+		height:109px;
+		padding-top:13px;
+	}
+	#secondarymenu {
+		float:left;
+		background:url(../images/topmenu-left.png) left top no-repeat;
+		padding-left:103px;
+		margin-top:25px;
+	}
+	.menu-topmenu-container {
+		background:url(../images/topmenu-right.png) right top no-repeat;
+		height:47px;
+	}
+	#secondarymenu ul {
+		margin-left:-70px;
+		margin-right:33px;
+	}
+	#secondarymenu li {
+		float:left;
+		position:relative;
+		padding:10px;
+	}
+	#secondarymenu a {
+		color:#bcb3aa;
+		text-decoration:none;
+	}
+	#secondarymenu a:hover {
+		color:#fff;
+	}
+	#mainmenu-container {
+		background:url(../images/menu.png) left 2px no-repeat;
+		width:862px;
+		padding:0 75px;
+		height:91px;
+	}
+	#mainmenu li {
+		padding:24px 30px;
+	}
+	#mainmenu li:hover {
+		background:url(../images/menuli.png) right top repeat-x;
+	}
+	#mainmenu li a {
+		color:#fff;
+		font-family:'Ariston';
+		text-decoration:none;
+		font-size:19px;
+	}
+	#mainmenu li ul {
+		top:58px;
+		left:50%;
+	}
+
+
+	#header li ul  .transparent {
+		background:url(../images/dropmenu.png) left top repeat;
+		border:1px solid #453831;
+	}
+	#header ul.children li a, .sub-menu li a {
+		color:#fff !important;
+	}
+	
+	
+	/*------------------------------ SLIDER ------------------------------*/
+	.slider-container {
+		margin-top:20px;
+		position:relative;
+		padding-bottom:17px;
+		background:url(../images/slider-shadow.png) 50% bottom no-repeat;
+	}
+	.slider {
+		background:#f1eae4;
+		width:824px;
+		padding:8px;
+		margin:0 auto;
+	}
+	.fp-prev-next-wrap {
+		margin:0 -8px;
+	}
+	.fp-next, .fp-prev {
+		margin:0 -50px;
+		width:36px;
+		height:66px;
+	}
+	.fp-slides,.fp-thumbnail,.fp-slides-items  {
+		height:385px;
+		width:824px;
+	}
+	.slider-nothumb .fp-content-fon {
+		background:#fff;
+	}
+	.slider-nothumb .fp-content a,.slider-nothumb .fp-content p{
+		color:#000;
+	}
+	.fp-nav {
+		bottom:20px;
+		left:auto;
+	}
