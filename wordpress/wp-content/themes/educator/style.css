@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5, h6, a.post_ttl {
 	line-height: 30px;
 	text-decoration: none;
 }
+.secondarynav nav li a:hover { color: #DF5E22;}
 
 
 /*------------------------------ SEARCH ------------------------------*/
@@ -206,20 +207,32 @@ span.page-numbers {
 }
 /*------------------------------ FOOTER ------------------------------*/
 #footer .container {
-	background:#000;
+	padding-bottom: 0;
+	background:#564738;
 }
 #footer a {
 	color:#fff;
+	text-decoration: none;
 }
-#footer h3 {
+#footer a:hover {
+	color:#dedede;
+}
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
 	color:#fff;
 }
 #footer {
 	color:#dedede;
 }
 #footer .footer_txt {
-	border-top:1px dashed #575757;
+	border-top:1px dashed #dedede;
+	font-size: 10px;
+	line-height: 14px;
 }
+.footer-widgets-container { padding-bottom: 2em; }
 
 /*	-==========================- DESKTOP -==========================-  */
 @media only screen and (min-width:1024px) {

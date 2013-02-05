@@ -150,8 +150,8 @@ if ( function_exists( 'register_nav_menu' ) ) {
 	
 	function show_right_sidebar_widgets() {
 		global $rightargs;
-		$rightargs['before_widget'] = '<div class="widget widget_search"><div class="inner">';
-		the_widget('WP_Widget_Search', $instance, $rightargs);
+		// $rightargs['before_widget'] = '<div class="widget widget_search"><div class="inner">';
+		// the_widget('WP_Widget_Search', $instance, $rightargs);
 		$rightargs['before_widget'] = '<div class="widget widget_posts"><div class="inner">';
 		$instance['display_featured_image']=1;
 		$instance['title']='Recent Posts';

@@ -28,8 +28,8 @@ img { border-width:0px; }
 .fp-next { float:right; width:50px; height:52px; background:url(../images/slide-right.png) right top no-repeat; }
 .fp-nav { position:absolute; bottom:-25px; right:30px; left:30px; text-align:center; z-index:9999; }
 .fp-title { margin:0px; padding:0px; }
-.fp-content-fon { position: absolute; padding-bottom:0px; height:80px; opacity: 0.5; filter: alpha(opacity = 50); bottom: 30px; right: 520px; left: 30px; background: #444; border:1px solid #aaa; }
-.fp-content { position: absolute; height:70px; padding: 5px 20px; bottom: 30px; right: 520px; left: 30px; overflow: hidden; }
+/*.fp-content-fon { position: absolute; padding-bottom:0px; height:80px; opacity: 0.5; filter: alpha(opacity = 50); bottom: 30px; right: 520px; left: 30px; background: #444; border:1px solid #aaa; }*/
+.fp-content { position: absolute; padding: 5px 20px; bottom: 30px; right: 520px; left: 30px; overflow: hidden; background: #444; background: rgba(68,68,68,0.75); border:1px solid #aaa; }
 .fp-content a, .fp-content p { color:#fff; }
 .fp-content p { padding-bottom:10px; margin:0px; }
 .fp-slides { margin:0 auto; padding:0px;	height: 370px; overflow: hidden; position: relative; width: 100%; }

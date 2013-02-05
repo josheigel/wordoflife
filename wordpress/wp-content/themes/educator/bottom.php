@@ -43,7 +43,6 @@ if ($SMTheme->get( 'social', 'showsocial')) {
                         echo $SMTheme->get( "layout","footertext" );
                     } else { 
                         ?>Copyright &copy; <?php echo date("Y"); ?>  <a href="<?php echo home_url(); ?>"><?php bloginfo("name"); ?></a><?php
-						echo (get_bloginfo('description'))?' - '.get_bloginfo('description'):'';
                     }
                 ?> 
 				<?php /* 
@@ -53,6 +52,7 @@ if ($SMTheme->get( 'social', 'showsocial')) {
 					You can buy this theme without footer links online at http://smthemes.com/buy/educator/
 				*/ ?>
 				<div class='smthemes'>Designed by <a href='http://smthemes.com/2012/' target='_blank'>Best WordPress themes 2012</a>, thanks to: <a href='http://wpdis.co/free/gamespress/' target='_blank'>Free WordPress games themes</a>, <a href='http://lizardthemes.com' target='_blank'>LizardThemes.com</a> and <a href='http://fthe.me/animepress/' target='_blank'>Best free WordPress themes</a></div>
+				<div>SMThemes - Smart free Wordpress themes on SMT Framework</div>
 		</div>
 		</div>
 <?php wp_footer(); ?>
